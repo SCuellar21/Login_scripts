@@ -31,8 +31,8 @@ Do While NAVEGADOR.Busy
 Loop
 
 WScript.Sleep 1000
-objShell.SendKeys strID
-WScript.Sleep 100
+objShell.SendKeys "s.cuellar.21s@gmail.com"
+WScript.Sleep 1000
 objShell.SendKeys "{TAB}"
 WScript.Sleep 10
 objShell.SendKeys "miluna#12HB282102tam"
@@ -52,7 +52,7 @@ Loop
 WScript.Sleep 1000
 objShell.SendKeys "bucs_21_3@hotmail.com"
 WScript.Sleep 10
-objShell.SendKeys "{TAB 1}"
+objShell.SendKeys "{TAB}"
 WScript.Sleep 100
 objShell.SendKeys "miluna#12HB282102tam21"
 WScript.Sleep 10
@@ -81,11 +81,11 @@ objShell.SendKeys "miluna#12HB21"
 WScript.Sleep 100
 
 REM CODIGO PARA QUITAR EL CHECKBOX EN LUGAR DE SOLO INICIAR SESION            REVISAR
-objShell.SendKeys "{TAB 2}"
-WScript.Sleep 10
-objShell.SendKeys "^{ }"
-WScript.Sleep 10
-objShell.SendKeys "+{TAB}"
-WScript.Sleep 10
+		REM objShell.SendKeys "{TAB 2}"
+		REM WScript.Sleep 10
+		REM objShell.SendKeys "^{ }"
+		REM WScript.Sleep 10
+		REM objShell.SendKeys "+{TAB}"
+		REM WScript.Sleep 10
 
 objShell.SendKeys "{ENTER}"
