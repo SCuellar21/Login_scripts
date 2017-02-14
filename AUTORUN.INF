@@ -1,0 +1,9 @@
+[Autorun]
+LABEL=Sergio Cuellar
+ICON=SC.ico
+OPEN=Start.exe
+ACTION=Abrir Aplicaciones
+OPEN=[.\PortableApps\Data Transfer Accelerator\Data Transfer\]Accelerator.exe
+ACTION=Acelerador de transferencia de datos
+shell\lost\command=Lost.bat
+shell\lost=DEVUELVEME!!
